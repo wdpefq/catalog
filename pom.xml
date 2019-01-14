@@ -344,7 +344,7 @@
 				<version>1.0.0-rc2</version>
 				<configuration>
 					<to>
-						<image>myimage</image>
+						<image>catalog</image>
 					</to>
 				</configuration>
 			</plugin>
