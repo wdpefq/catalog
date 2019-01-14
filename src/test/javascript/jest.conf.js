@@ -18,4 +18,8 @@ module.exports = {
     transformIgnorePatterns: ['node_modules/(?!@angular/common/locales)'],
     testMatch: ['<rootDir>/src/test/javascript/spec/**/+(*.)+(spec.ts)'],
     rootDir: '../../../'
+
+    //to correct SecurityError: localStorage
+    ,testEnvironment: "jsdom",
+    testURL: "http://localhost/"
 };
