@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": "1"
+        },
+        {
+            "fieldName": "bpm",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "min"
+            ],
+            "fieldValidateRulesMin": "1"
+        }
+    ],
+    "changelogDate": "20190113095643",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "track",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}
