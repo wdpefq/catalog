@@ -1,23 +1,23 @@
-# brief description
--A starter test project in jHipster that contains a 'Track' entity, representing a song
--Contains endpoint http://localhost:8080/api/tracks/batchCsv that takes a csv file as input(this file contains a list of songs/tracks),adds them to a database table containing tracks, and returns the contents of the updated table
--Link to Postman collection with helpful endpoints https://www.getpostman.com/collections/57a214457a95feed50b7
--Hit http://localhost:8080/api/authenticate with 'Basic Auth' username 'admin' and password 'admin' to get an auth token back
--Hit all subseqeuent requests with the auth token attached in 'Bearer Token'
--Lines from a sample csv file:
-
-	Song,Beats Per Minute
-	Thriller(Michael Jackson),100
-	Gotti(Six Nine), 98
-
--Minimum length 1 expected for song name. Minimum value 1 expected for BPM. Special characters and multiple commas not handled
--Error handling/reporting not done
--Both git and docker repositories are public, username and password for app are unchanged and hardcoded
-
-# running the image
--MySQL service needs to be stopped, or docker image needs to mapped off of another port, not 3306
--Run 'docker-compose -f app.yml up'(app.yml is located in src/main/docker)
-
+# brief description  
+-A starter test project in jHipster that contains a 'Track' entity, representing a song  
+-Contains endpoint http://localhost:8080/api/tracks/batchCsv that takes a csv file as input(this file contains a list of songs/tracks),adds them to a database table containing tracks, and returns the contents of the updated table  
+-Link to Postman collection with helpful endpoints https://www.getpostman.com/collections/57a214457a95feed50b7  
+-Hit http://localhost:8080/api/authenticate with 'Basic Auth' username 'admin' and password 'admin' to get an auth token back  
+-Hit all subseqeuent requests with the auth token attached in 'Bearer Token'  
+-Lines from a sample csv file:  
+  
+	Song,Beats Per Minute  
+	Thriller(Michael Jackson),100  
+	Gotti(Six Nine), 98  
+  
+-Minimum length 1 expected for song name. Minimum value 1 expected for BPM. Special characters and multiple commas not handled  
+-Error handling/reporting not done  
+-Both git and docker repositories are public, username and password for app are unchanged and hardcoded  
+  
+# running the image  
+-MySQL service needs to be stopped, or docker image needs to mapped off of another port, not 3306  
+-Run 'docker-compose -f app.yml up'(app.yml is located in src/main/docker)  
+  
 # catalog
 This application was generated using JHipster 5.0.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.0.1](https://www.jhipster.tech/documentation-archive/v5.0.1).
 
